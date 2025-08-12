@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <!-- link to css file-->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TASTYBITES</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Menu</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Reviews</a></li>
+                <a href="#" onclick="toggleCities()">Location</a>
+    <ul id="city-list">
+      <li>Jalgaon</li>
+      <li>Sambhajinager</li>
+      <li>Dhule</li>
+      <li>Pune</li>
+    </ul>
+  </li>
+</ul>
+
+<script>
+  function toggleCities() {
+    const cityList = document.getElementById("city-list");
+    cityList.style.display = cityList.style.display === "none" ? "block" : "none";
+  }
+</script>
+
+                
+  
+            </ul>
+         </nav>       
+        
+    </header>
+    <hr>
+    <section class="hero">
+        <div class="content">
+            <h2><span>HELLO FOODIES 👋👋</span>?</h2>
+            <h1>SAVOR EVERY <SPan>DELICION</SPan></h1>
+            <p>
+                We're passionat about food and dedicated to your satisfaction!<br /
+                >Discover
+                flavors that will delight your palate 
+            </p>
+
+            <div class="buttons">
+                <a href="#" class="btn btn-primary">Explore Menu</a>
+                <a href="#" class="btn btn-secondary">Reserve Table</a>
+            </div>
+        </div>
+        <div class="profile">
+            <img src="hotel mayank.jpg" width="700px" alt="" />
+            <button class="btn delivery">Free Delivery🕞</button>
+            <button class="btn off">20% OFF</button>
+        </div>
+    </section>
+    <!-- stats section-->
+     <section class="stats">
+        <div class="stat-item">
+            <h3>750K+</h3>
+            <p>Happy Customers Served Worldwide</p>
+        </div>
+
+        <div class="stat-item">
+            <h3>5/5</h3>
+            <p>Rated by top food critics</p>
+        </div>
+        <div class="stat-item">
+            <h3>150+</h3>
+            <p>Signature dishes created</p>
+        </div>
+
+        <div class="stat-item">
+            <h3>99%</h3>
+            <p>Would recmmend to friends</p>
+        </div>
+     </section>
+</body>
+</html>
